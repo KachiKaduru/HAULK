@@ -1,0 +1,1019 @@
+@import url(//db.onlinewebfonts.com/c/0825e48b888e2966c14f17034b133d07?family=Gordita);
+
+body{
+    margin: 0;
+    font-family: 'Gordita';
+    background-color: #FAFAFA;
+    //max-width: 375px;
+    width: auto;
+}
+
+*{
+    transition: 0.3s;
+}
+
+.current{
+    color: #1692AD;
+    font-weight: 600;
+
+    &:hover{
+        color: #1692AD;
+        font-weight: bold;
+    }
+}
+
+header{
+    background-color: white;
+    height: 84px;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 21px 0px;
+    }
+
+    .logo{
+        display: block;  
+        
+        img{
+            width: 100px;
+        }
+    }
+
+    .mobile-menu{
+        width: 32px;
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+nav.menu-btn{
+    display: block;
+}
+
+nav{
+    margin-top: -30px;
+    margin-right: -21px;
+    z-index: 99;
+    width: 60%;
+    background: #25373B;
+    opacity: .98;
+    height: 100vh;
+    
+    .mobile-exit{
+        height: 32px;
+        filter: invert(1);
+        display: block;
+        float: right;
+        margin: 1.9em 1.5em;
+        cursor: pointer;
+    }
+
+    ul{
+        margin-top: 5em;
+        margin-left: -1em;
+        list-style-type: none;
+
+        a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: .8em;
+            text-align: right;
+
+            &:hover{
+                color: grey;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+main{
+    height: 620px;    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .img{
+        height: 620px;
+        width: 100%;
+    }
+    
+    .mainbg{
+        display: none;
+    }
+
+    .container{
+        position: absolute;
+        top: 115px;
+        text-align: center;
+        color: white;
+        width: fit-content;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 36px;
+        line-height: 46px;
+        width: 100%;
+        margin: 24.12px auto;
+    }
+
+    p{
+        letter-spacing: .15px;
+        font-size: 16px;
+        width: 305px;
+        margin: auto;
+    }
+
+    .truck-links{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        margin-top: 48px;
+
+        a{
+            text-decoration: none;
+            border: 1px solid white;
+            border-radius: 6px;
+            padding: 12px 89px;
+            width: fit-content;
+            letter-spacing: .2px;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+       .register{
+           color: white;
+           //margin-bottom: 32px;
+        }
+
+        .book-truck{
+            color: #25373B;;
+            background-color: white;
+        }
+    }
+}
+
+.services-stn{
+    margin-top: 60px;
+    margin-bottom: 56.16px;
+
+    .container{
+        text-align: center;
+
+        .headings{
+            h2{
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 600;
+                color: #202223;
+            }
+
+            p{
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #6D7175;
+            }
+        }
+    }
+
+    .advantages{
+        margin: 29px auto 56px;
+
+        .items{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1em auto;
+
+
+            .rectangle{
+                display: block;
+                width: 328px;
+                height: 322px;
+                margin: auto;
+                background-color: #D1E1E1;
+                border-radius: 20px;
+            }
+
+            .blue-circle{
+                display: block;
+                width: 82px;
+                height: 82px;
+                margin: auto;
+                position: absolute;
+                top: 58px;
+            }
+
+            .truck-img{
+                display: block;
+                width: 39.36px;
+                height: 39.36px;
+                margin: auto;
+                position: absolute;
+                top: 79.32px;
+            }
+
+            h4{
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.15px;
+                color: #202223;
+                position: absolute;
+                top: 142px;
+            }
+
+            p{
+                width: 269px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 23px;
+                color: #202223;
+                position: absolute;
+                top: 197px;
+            }
+        }
+    }
+
+    .profits{
+        display: flex;
+        flex-direction: column;
+        //align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+
+        img{
+            display: block;
+            width: 328px;
+            height: 223.42px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .column{
+            width: 323px;
+            margin: auto;
+            text-align: left;
+
+            h2{
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 34px;
+                color: #202223;
+                margin: 32px auto 16px;
+
+            }
+
+            p{
+                margin-bottom: 16px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 23px;
+                width: 323px;
+            }
+
+            a{
+                display: block;
+                text-decoration: none;
+                color: #202223;
+                border: 1px solid #202223;
+                border-radius: 6px;
+                padding: 12px 0px;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 21px;
+                letter-spacing: 0.2px;
+            }
+
+            .book-one{
+                color: white;
+                background-color: #202223;
+            }
+        }
+        
+    }
+}
+
+.fleet-stn{
+    margin-bottom: 87px;
+
+    .container{
+        
+        .headings{
+            margin-bottom: 27px;
+            text-align: center;
+
+            h2{
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 600;
+                color: #202223;
+            }
+    
+            p{
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #6D7175;
+            }
+        }
+       
+    }
+
+    .garage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        position: relative;
+        
+        .vehicles{
+            position: relative;
+
+            img{
+                width: 326.8px;
+                height: 229px;
+                display: block;
+                margin: auto;
+            }
+
+            p{
+                width: 198px;
+                height: 43px;
+                background: rgba(22, 146, 173, 0.56);
+                box-sizing: border-box;
+                padding: 10px 0 7px 25px;
+                position: absolute;
+                top: 170px;
+                right: 0;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.15px;
+                color: #FFFFFF;
+
+            }
+        }
+    }
+}
+
+.testimonials-stn{
+    margin-bottom: 66.84px;
+
+    .container{
+        
+        .headings{
+            text-align: center;
+
+            h2{
+                font-size: 24px;
+                line-height: 34px;
+                font-weight: 600;
+                color: #202223;
+            }
+    
+            p{
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 14px;
+                color: #6D7175;
+            }
+        }
+    }
+
+    .testimonies{
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+        margin: auto;
+        //height: 195px;
+
+        .testimony{
+            margin: 14px;
+            position: relative;
+
+            img{
+                width: 320px;
+                height: 151px;
+                background-color: #D1E1E1;
+                border-radius: 20px;
+                
+            }
+
+            div{
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                top: 0;
+                
+                img{
+                    width: 40px;
+                    height: 40px;
+                    float: left;
+                    display: block;
+                    position: absolute;
+                    top: 22px;
+                    left: 16px;
+                    
+                }
+
+                blockquote{
+                    position: absolute;
+                    left: 32px;
+                    width: 243px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #202223;
+                }
+            }
+
+            cite{
+                position: absolute;
+                top: 108px;
+                right: 20px;
+                width: fit-content;
+                font-weight: 600;
+                font-size: 13px;
+                font-style: normal;
+                line-height: 26px;
+                text-align: right;
+                letter-spacing: 0.15px;
+                color: #202223;
+            }
+        }
+    }
+}
+
+.info-stn{
+    //margin-bottom: 40px;
+
+    .container{
+        .know-more{
+            background: url(bluebg.png);
+            height: 344px;
+            margin: 0 auto;
+            text-align: center;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                width: 268px;
+                margin: 56px auto 8px;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 34px;
+            }
+
+            p{
+                width: 192px;
+                margin-bottom: 32px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                position: relative;
+
+                input{
+                    box-sizing: border-box;
+                    width: 324px;
+                    padding: 12px;
+                    font-family: 'Gordita';
+                    border: 1px solid #BAC7D5;
+                    border-radius: 3px;
+                }
+
+                a{
+                    position: absolute;
+                    right: 5px;
+                    width: 59px;
+                    height: 34px;
+                }
+            }
+        }
+
+        .imagery{
+            display: block;
+            margin: auto;
+            width: auto;
+            height: 368px;
+            background: url(happy.png);
+            background-size: cover;
+            //background-repeat: no-repeat;
+        }
+    }
+
+}
+
+footer{
+    background-color: #f5f5f5;
+    padding: 1em 0 0px;
+    //margin-top: -2.5em;
+    
+    .container{
+        margin: 24px;
+      
+        img{
+            display: block;
+        }
+    }
+
+    .links{
+        margin: 0;
+        width: 375px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 66px;
+
+        ul{
+            list-style-type: none;
+            margin-left: -40px;
+
+            h5{
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.15px;
+                color: #25373B;
+                margin: 8px 0px;
+            }
+
+            li{
+                margin: 8px 0px;
+            }
+
+            a{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 23px;
+                color: #25373B;
+                text-decoration: none;
+                
+            }
+        }
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        width: 337px;
+        margin: 17px auto;
+        color: #25373B;
+    }
+
+    .copyright{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.15px;
+        color: #60A5FA;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .mobile-exit, .mobile-menu{
+        display: none;
+    }
+
+    header{
+        height: 90px;
+        
+        .container{
+            display: grid;
+            grid-template-columns: 90px auto; //change at 1080px
+            justify-content: unset;
+        }
+
+        .logo{
+            img{
+                width: 143px;
+                height: 25.62px;
+            }
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background: none;
+            position: unset;
+            height: auto;
+            width: 100%;
+            padding: 0;
+            margin-top: -5.5em;
+        }
+
+        ul{
+            display: flex;
+
+            a{
+                color: #202223;
+            }
+        }
+        
+        .pry-nav li{
+            margin: 0px 10px 0 0; //change at 1080px
+        }
+
+        .sec-nav li{
+            margin: 0px 12px 0 0; //change at 1080px
+            
+        }
+
+        .login-btn{
+            border: 1px solid #25373B;
+            border-radius: 4px;
+            padding: 12px 20px;
+        }
+
+        .acct-btn{
+            //width: 123px;
+            border: 1px solid #25373B;
+            border-radius: 4px;
+            background: #25373B;
+            color: white;
+            box-sizing: border-box;
+            padding: 12px 20px;
+        }
+    }
+    
+    main{
+        
+        .mobilebg{
+            display: none;
+        }
+
+        .mainbg{
+            display: block;
+        }
+
+        .container{
+
+            h1{
+                font-weight: 600;
+                font-size: 56px;
+                line-height: 67px;
+                text-align: center;
+                letter-spacing: 1.5px;
+                width: 664px;
+            }
+
+            p{
+                width: 533px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.15px;
+                margin-bottom: 3em;
+            }
+        }
+
+        .truck-links{
+            display: flex;
+            //justify-content: space-between;
+        }
+    }
+
+    .services-stn{
+        margin-bottom: 0px;
+        .container{
+            margin: 0 32px;
+
+            .headings{
+                h2{
+                    font-size: 36px;
+                    line-height: 46px;
+                    font-weight: 600;
+                    //color: #202223;
+                }
+        
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: .15px;
+                    //color: #6D7175;
+                }
+        
+            }
+        }
+
+        .advantages{
+            display: flex;
+            justify-content: space-between;
+            overflow: auto;
+            margin: 29px auto 129px;
+
+            .items{
+                margin: 0 6px 1em;
+
+                .rectangle{
+                    width: 412px;
+                    height: 344px;
+                }
+
+                h4{
+                    font-size: 24px;
+                    //line-height: 34px;
+                }
+
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+
+        .profits{
+            max-width: 1440px;
+            margin: auto;
+            display: grid;
+            row-gap: 120px;
+            overflow: auto;
+           
+            .reliable,.earning{
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                img{
+                    width: 552px;
+                    height: 376px;
+                    border-radius: 0px;
+                    display: block;
+                    margin: 0 0 0 5em;
+                }
+            }
+
+            .column{
+                width: 553px;
+                margin: auto 0;
+
+                h2{
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 46px;
+                    letter-spacing: -.5px;
+                    margin:  0px;
+                    width: 400px;
+                }
+
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 0.15px;
+                    width: 553px;
+                }
+
+                a{
+                    width: 301px;
+                }
+            }
+
+            .earning{
+                flex-direction: row;
+                margin: 0 0em 1em 0;
+
+                img{
+                    margin: 0 5em 0 0;
+                }
+            }
+        }
+    }
+
+    .fleet-stn{
+        margin-top: 100px;
+
+        .container{
+            .headings{
+                h2{
+                    font-size: 36px;
+                    line-height: 46px;
+                    font-weight: 600;
+                    //color: #202223;
+                }
+        
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: .15px;
+                    //color: #6D7175;
+                }
+            }
+        }
+
+        .garage{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            align-items: center;
+            margin: auto 32px;
+            overflow: auto;
+            padding-bottom: 1em;
+
+            .vehicles{
+                
+                img{
+                    width: 411px;
+                    height: 288px;
+                }
+
+                p{
+                    width: 275px;
+                    height: 60px;
+                    padding: 15px 25px;
+                    font-size: 20px;
+                    line-height: 28px;
+                    top: 208px;
+                }
+            }
+        }
+    }
+
+    .testimonials-stn{
+        .container{
+            margin: 32px;
+            .headings{
+                h2{
+                    font-size: 36px;
+                    line-height: 46px;
+                    font-weight: 600;
+                    //color: #202223;
+                }
+        
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: .15px;
+                    //color: #6D7175;
+                }
+            }
+        }
+
+        .testimonies{
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: space-evenly;
+            row-gap: 40px;
+            column-gap: 10px;
+            column-gap: -50px;
+            margin:  2em auto;
+
+            .testimony{
+                margin: 0px;
+                position: relative;
+
+                img{
+                    width: 553px;
+                    height: 211px;
+                    display: block;
+                    margin: 0;
+                }
+
+                div{
+                    top: 31px;
+
+                    img{
+                        width: 56px;
+                        height: 56px;
+                        left: 39px;
+                    }
+
+                    blockquote{
+                        width: 396px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        left: 84px;
+                    }
+                }
+
+                cite{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                    text-align: right;
+                    letter-spacing: 0.15px;
+                    top: 154px;
+                    right: 47px;
+                }
+            }
+
+        }
+    }
+
+    .info-stn{
+        width: 100%;
+        height: 510px;
+
+        .container{
+            display: flex;
+            height: 510px;
+           
+            .know-more{
+                width: 50%;
+                height: 510px;
+                margin: 0;
+                background-repeat: round;
+                text-align: left;
+                
+                h2{
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 46px;
+                    letter-spacing: -0.5px;
+                    width: 503px;
+                    margin-top: 126px;
+                }
+
+                p{
+                    text-align: left;
+                    width: 503px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    letter-spacing: 0.15px;
+                }
+
+                form{
+                    input{
+                        width: 503px;
+                        
+                    }
+                }
+            }
+
+            .imagery{
+                width: 50%;
+                height: 510px;
+                margin: 0;
+                
+            }
+        }
+    }
+
+    footer{
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin: 0;
+            margin-left: 75px;
+            margin-top: 50px;
+
+            img{
+                width: 212px;
+                height: 38px;
+                
+            }
+
+            .links{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 88px;
+                
+                ul{
+                    width: 105px;
+                }
+            }
+        }
+
+        p{
+            width: 640px;
+        }
+
+        .copyright{
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 19px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+
+}

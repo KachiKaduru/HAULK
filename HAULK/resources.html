@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAULK</title>
+    <link rel="stylesheet" href="resources.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.svg" alt="">
+            </div>
+
+            <img src="menu.svg" alt="menu" id="menuMobile" class="mobile-menu">
+
+            <nav>
+                <img src="close.svg" alt="exit" id="exitMobile" class="mobile-exit">
+
+                <ul class="pry-nav">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a class="current" href="">Resources</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+
+                <ul class="sec-nav">
+                    <li><a href="" class="login-btn">Login</a></li>
+                    <li><a href="" class="acct-btn">Create Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h2 class="resources-stn">Resources</h2>
+
+    <section class="faq-stn">
+        <div class="container">
+            <div class="heading">
+                <h2>Frequently Asked Questions</h2>
+                <p>Here is a list of different possible questions that you might find helpful.</p>
+            </div>
+
+            <div class="FAQs">
+                <h2>FAQs</h2>
+
+                <div class="questions">
+                    <p>What is Haulk Logistics?</p>
+                    <img src="add.png" alt="">
+                </div>
+
+                <div class="questions">
+                    <p>How much does it cost to join Haulk Logistics</p>
+                    <img src="add.png" alt="">
+                </div>
+
+                <div class="questions">
+                    <p>What type of Trucks does Haulk Logistics accept?</p>
+                    <img src="add.png" alt="">
+                </div>
+
+                <div class="questions">
+                    <p>Do I need Insurance?</p>
+                    <img src="add.png" alt="">
+                </div>
+
+                <div class="questions">
+                    <p>How do I reach Haulk Logistics? </p>
+                    <img src="add.png" alt="" id="open" > 
+                    
+                    <p id="support">To get support for any service on Haulk Logistics, kindly visit our website; www.haulklogistics.com or call the Haulk Logistics Helpline via 0700HAULK /07005626456 Or email us support@Haulklogistics.com</p>
+                    <img src="minus.png" alt="" id="close">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-stn">
+        <div class="container">
+            <div class="heading">
+                <h2>Contact Us</h2>
+
+                <p>You can contact us incase of enquiries, emergency and sponsorship and other thing through our Email, Phone numbers and you can also visit our address.</p>
+            </div>
+
+           <img src="maskchick.png" alt="">
+        </div>
+    </section>
+
+    <section class="addresses-stn">
+        <div class="container">
+            <div>
+                <h2>Email</h2>
+                <p>Haulklogistics@gmail.com</p>
+            </div>
+
+            <div>
+                <h2>Phone Numbers</h2>
+                <p>
+                    08033343567 <br>
+                    08069874534 <br>
+                    09045674563 <br>
+                </p>
+            </div>
+
+            <div>
+                <h2>Address</h2>
+                <p>Tenece Complex, Centenery city, Enugu state.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <img src="logo.svg" alt="">
+
+            <div class="links">
+                <ul>
+                    <h5>Resources</h5>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+
+                <ul>
+                    <h5>About Us</h5>
+                    <li><a href="">Who we are</a></li>
+                </ul>
+
+                <ul>
+                    <h5>Services</h5>
+                    <li><a href="">Register truck</a></li>
+                </ul>
+            </div>
+
+            <div></div>
+        </div>
+
+        <p>Haulk Logistics is a company that aims to facilitate the stress-free, careful and speedy movement of goods from one point to another within Nigeria. </p>
+
+        <a class="copyright" href="">Copyright © 2021 Haulk Logistics. All rights reserved</a>
+    </footer>
+
+
+
+
+    <script>
+        const mobileBtn = document.getElementById('menuMobile')
+        const nav = document.querySelector('nav')
+        const mobileBtnExit = document.getElementById('exitMobile');
+        
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+</body>
+</html>
