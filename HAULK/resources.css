@@ -1,8 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/0825e48b888e2966c14f17034b133d07?family=Gordita);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 body {
   margin: 0;
-  font-family: 'Gordita';
+  font-family: 'Poppins';
   background-color: #FAFAFA;
+  max-width: 1440px;
   width: auto;
 }
 

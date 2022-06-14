@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: 'Poppins';
   background-color: #FAFAFA;
+  max-width: 1440px;
   width: auto;
 }
 
