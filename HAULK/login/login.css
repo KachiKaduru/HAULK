@@ -1,2 +1,185 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+body {
+  margin: 0;
+  font-family: 'Poppins';
+  background-color: #FAFAFA;
+  max-width: 1440px;
+  width: auto;
+}
+
+* {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.banner {
+  display: none;
+}
+
+.mobile-logo {
+  width: 100px;
+  height: 20.45px;
+  display: block;
+  margin: 80px auto 0px;
+}
+
+.create-stn .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.create-stn h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #202223;
+  margin-left: 24px;
+}
+
+.create-stn p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #6D7175;
+  width: 327px;
+  margin: 1px auto 12px;
+}
+
+.create-stn form {
+  margin: 8px 0px 83px;
+}
+
+.create-stn form label {
+  margin: 24px;
+  display: block;
+}
+
+.create-stn form legend {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #202223;
+  margin: 6px 0px;
+}
+
+.create-stn form input {
+  width: 100%;
+  max-width: 1440px;
+  border: 1px solid #D1E1E1;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.create-stn form input[type=checkbox] {
+  width: 1em;
+  margin-top: 6px;
+  background-color: #1692AD;
+}
+
+.create-stn form input[type=submit] {
+  color: #FFFFFF;
+  background-color: #25373B;
+}
+
+.create-stn form .checkbox {
+  text-decoration: none;
+  color: #1692AD;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.create-stn form .password-place {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5em auto auto;
+      grid-template-columns: 1.5em auto auto;
+}
+
+.create-stn form .already {
+  color: #000000;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: .2px;
+}
+
+.create-stn form .already a {
+  color: #1692AD;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-column-gap: 0px;
+            column-gap: 0px;
+  }
+  .banner {
+    display: block;
+    background: url(logo-bg.svg);
+    background-repeat: repeat;
+    background-color: #25373B;
+  }
+  .banner .logo {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 395px;
+    margin: 45% auto;
+  }
+  .banner .logo img {
+    -webkit-filter: invert(4);
+            filter: invert(4);
+    -webkit-filter: brightness(20);
+            filter: brightness(20);
+    width: 295px;
+    height: 52.86px;
+  }
+  .banner .logo p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+  .mobile-logo {
+    display: none;
+  }
+  .create-stn {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 60px;
+  }
+  .create-stn .container h2 {
+    text-align: left;
+    font-size: 36px;
+    line-height: 11px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+  }
+  .create-stn .container p {
+    max-width: 1440px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: left;
+    margin: 1px 0px 32px 24px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
 /*# sourceMappingURL=login.css.map */
