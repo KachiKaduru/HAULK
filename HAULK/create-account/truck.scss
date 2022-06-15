@@ -72,10 +72,10 @@ body{
             position: relative;
 
             img{
-                display: inline;
+                display: block;
                 position: absolute;
                 top: 15px;
-                left: 47px;
+                left: 20px;
             }
         }
 
@@ -85,6 +85,10 @@ body{
             border: 1px solid #D1E1E1;
             border-right: 0px;
             border-radius: 6px 0 0 6px;
+
+            img{
+                width: 18px;
+            }
         }
 
         .truck-driver{
@@ -98,6 +102,10 @@ body{
                 filter: brightness(10);
             }
         }
+    }
+
+    .steps{
+        display: none;
     }
 
     form{

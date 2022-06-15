@@ -79,10 +79,10 @@ body {
 }
 
 .create-stn .main-links a img {
-  display: inline;
+  display: block;
   position: absolute;
   top: 15px;
-  left: 47px;
+  left: 20px;
 }
 
 .create-stn .main-links .cargo-owner {
@@ -91,6 +91,10 @@ body {
   border: 1px solid #D1E1E1;
   border-right: 0px;
   border-radius: 6px 0 0 6px;
+}
+
+.create-stn .main-links .cargo-owner img {
+  width: 18px;
 }
 
 .create-stn .main-links .truck-driver {
@@ -105,6 +109,10 @@ body {
           filter: invert(1);
   -webkit-filter: brightness(10);
           filter: brightness(10);
+}
+
+.create-stn .steps {
+  display: none;
 }
 
 .create-stn form {
