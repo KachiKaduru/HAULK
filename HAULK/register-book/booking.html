@@ -11,44 +11,30 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html"><img src="logo.svg" alt=""></a>
+                <a href="../index.html"><img src="logo.svg" alt=""></a>
             </div>
         </div>
     </header>
 
     <section class="create-stn">
         <div class="container">
-            <h2>Create Account</h2>
+            <h2>Book a Truck</h2>
 
-            <p>Fill in personal information to continue registration. </p>
-
-            <section class="main-links">
-                <a href="cargo.html" class="cargo-owner"> <img src="profile-1user.svg" alt=""> Cargo Owner</a>
-                <a href="truck.html" class="truck-driver"> <img src="truck-tick.svg" alt=""> Truck Driver</a>
-            </section>
+            <p>You are one-step away from solving your logistics concerns. </p>
 
             <section class="steps">
-                <div class="stepping">
-                    <div class="images">
-                        <img src="blueline.svg" alt="" class="line">
-                        <img src="one.svg" alt="" class="circle">
-                    </div>
+                <div class="stepping blueline">
+                    <img src="one.svg" alt="">
                     <p>Order Details</p>
                 </div>
 
-                <div class="stepping">
-                    <div class="images">
-                        <img src="greyline.svg" alt="" class="line">
-                        <img src="two.svg" alt="" class="circle">
-                    </div>
+                <div class="stepping greyline">
+                    <img src="two.svg" alt="">
                     <p>Confirm and Pay</p>
                 </div>
 
-                <div class="stepping">
-                    <div class="images">
-                        <img src="greyline.svg" alt="" class="line">
-                        <img src="three.svg" alt="" class=" circle">
-                    </div>
+                <div class="stepping greyline">
+                    <img src="three.svg" alt="">
                     <p>Order Summary</p>
                 </div>
             </section>
@@ -94,6 +80,21 @@
                         <option value="Trailer">Trailer</option>
                         <option value="Flatbed">Flatbed</option>
                     </select>
+                </label>
+
+                <label for="">
+                    <legend>Proof of Ownership</legend>
+                    <input type="file" name="ownership" id="">
+                </label>
+
+                <label for="">
+                    <legend>Container Number</legend>
+                    <input type="number" placeholder="Enter Number">
+                </label>
+
+                <label for="">
+                    <legend>Shipping Name</legend>
+                    <input type="text" placeholder="Enter Name">
                 </label>
 
                 <label for="">

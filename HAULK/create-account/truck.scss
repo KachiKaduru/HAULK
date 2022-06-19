@@ -105,47 +105,36 @@ body{
     }
 
     .steps{
-        margin: 1.5em auto;
+        margin: 3em 24px;
+        box-sizing: border-box;
         display: grid;
         grid-template-columns: auto auto auto;
-        display: none;
-        
+        gap: 1px;
+       
         .stepping{
-            display: flex;
-            flex-direction: column;
-            width: 150px;
-            height: 45px;
-            position: relative;
-            
+            height: 3px;
+            margin: 0px;
 
-            .images{
-                position: relative;
-
-                .line{
-                    margin: 12px 24px;
-                    width: 100px;
-                    display: block;
-                }
-
-                .circle{
-                    width: 25px;
-                    display: block;
-                    position: absolute;
-                    top: 5px;
-                    left: 60.5px;
-                }
+            img{
+                display: block;
+                margin: auto;
+                margin-top: -10px;
+                width: 25px;
             }
 
             p{
-                //text-align: center;
-                //margin: -12px;
-                display: grid;
-                justify-content: center;
-                align-content: center;
-                position: absolute;
-                top: 30px;
-                left: -113px;
+                text-align: center;
+                width: fit-content;
+                margin: auto;
             }
+        }
+
+        .blueline{
+            background-color: #1692AD;
+        }
+
+        .greyline{
+            background-color: #D1E1E1;
         }
     }
 
