@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAULK - Book A Truck</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="logo.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="create-stn">
+        <div class="container">
+            <h2>Create Account</h2>
+
+            <p>Fill in personal information to continue registration. </p>
+
+            <section class="main-links">
+                <a href="cargo.html" class="cargo-owner"> <img src="profile-1user.svg" alt=""> Cargo Owner</a>
+                <a href="truck.html" class="truck-driver"> <img src="truck-tick.svg" alt=""> Truck Driver</a>
+            </section>
+
+            <section class="steps">
+                <div class="stepping">
+                    <div class="images">
+                        <img src="blueline.svg" alt="" class="line">
+                        <img src="one.svg" alt="" class="circle">
+                    </div>
+                    <p>Order Details</p>
+                </div>
+
+                <div class="stepping">
+                    <div class="images">
+                        <img src="greyline.svg" alt="" class="line">
+                        <img src="two.svg" alt="" class="circle">
+                    </div>
+                    <p>Confirm and Pay</p>
+                </div>
+
+                <div class="stepping">
+                    <div class="images">
+                        <img src="greyline.svg" alt="" class="line">
+                        <img src="three.svg" alt="" class=" circle">
+                    </div>
+                    <p>Order Summary</p>
+                </div>
+            </section>
+
+            <form action="">
+                <label for="">
+                    <legend>Nature of Goods</legend>
+                    <input type="s" placeholder="Enter First Name">
+                </label>
+
+                <label for="">
+                    <legend>Truck Type</legend>
+                    <select name="truck-type" id="">
+                        <option value="Select"></option>
+                        <option value="Mini Truck">Mini Truck</option>
+                        <option value="Box">Box</option>
+                        <option value="Trailer">Trailer</option>
+                        <option value="Flatbed">Flatbed</option>
+                    </select>
+                </label>
+
+                <label for="">
+                    <legend>Pick Up Location</legend>
+                    <input type="address" placeholder="Enter Address">
+                </label>
+
+                <label for="">
+                    <legend>Drop Off Location</legend>
+                    <input type="address" placeholder="Enter Address">
+                </label>
+
+                <label for="">
+                    <legend>Pick Up Date</legend>
+                    <input type="datetime-local" placeholder="Enter Date">
+                </label>
+
+                <label for="">
+                    <legend>Container Size</legend>
+                    <select name="truck-type" id="">
+                        <option value="Select"></option>
+                        <option value="Mini Truck">Mini Truck</option>
+                        <option value="Box">Box</option>
+                        <option value="Trailer">Trailer</option>
+                        <option value="Flatbed">Flatbed</option>
+                    </select>
+                </label>
+
+                <label for="">
+                    <input type="submit" name="register" value="Submit">
+                </label>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

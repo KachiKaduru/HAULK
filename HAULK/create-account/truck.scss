@@ -105,7 +105,48 @@ body{
     }
 
     .steps{
+        margin: 1.5em auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
         display: none;
+        
+        .stepping{
+            display: flex;
+            flex-direction: column;
+            width: 150px;
+            height: 45px;
+            position: relative;
+            
+
+            .images{
+                position: relative;
+
+                .line{
+                    margin: 12px 24px;
+                    width: 100px;
+                    display: block;
+                }
+
+                .circle{
+                    width: 25px;
+                    display: block;
+                    position: absolute;
+                    top: 5px;
+                    left: 60.5px;
+                }
+            }
+
+            p{
+                //text-align: center;
+                //margin: -12px;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                position: absolute;
+                top: 30px;
+                left: -113px;
+            }
+        }
     }
 
     form{
