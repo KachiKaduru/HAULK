@@ -39,6 +39,7 @@ header .container {
 
 header .logo {
   display: block;
+  margin: auto;
 }
 
 header .logo img {
@@ -49,22 +50,22 @@ header .mobile-menu {
   width: 32px;
 }
 
-header nav {
-  display: none;
-}
-
 nav.menu-btn {
   display: block;
 }
 
 nav {
-  margin-top: -30px;
-  margin-right: -21px;
-  z-index: 99;
-  width: 60%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 0;
   background: #25373B;
+  overflow-x: hidden;
   opacity: .98;
   height: 100vh;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 nav .mobile-exit {
