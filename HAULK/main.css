@@ -326,9 +326,21 @@ main .truck-links .book-truck {
   letter-spacing: 0.2px;
 }
 
+.services-stn .profits .column a:hover {
+  color: #FFFFFF;
+  background-color: #202223;
+  font-weight: 600;
+}
+
 .services-stn .profits .column .book-one {
   color: white;
   background-color: #202223;
+}
+
+.services-stn .profits .column .book-one:hover {
+  color: #202223;
+  background-color: white;
+  font-weight: 600;
 }
 
 .fleet-stn {

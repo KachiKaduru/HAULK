@@ -302,11 +302,23 @@ main{
                 font-weight: 600;
                 line-height: 21px;
                 letter-spacing: 0.2px;
+
+                &:hover{
+                    color: #FFFFFF;
+                    background-color: #202223;
+                    font-weight: 600;
+                }
             }
 
             .book-one{
                 color: white;
                 background-color: #202223;
+
+                &:hover{
+                    color: #202223;
+                    background-color: white;
+                    font-weight: 600;
+                }
             }
         }
         
