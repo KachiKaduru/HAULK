@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background-color: #FAFAFA;
   max-width: 1440px;
   width: auto;
 }
 
 * {
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -16,7 +15,6 @@ body {
   color: #1692AD;
   font-weight: 600;
 }
-
 .current:hover {
   color: #1692AD;
   font-weight: bold;
@@ -26,30 +24,21 @@ header {
   background-color: white;
   height: 84px;
 }
-
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 25px 21px 0px;
 }
-
 header .logo {
   display: block;
   margin: auto;
 }
-
 header .logo img {
   width: 100px;
 }
-
 header .mobile-menu {
   width: 32px;
 }
-
 nav.menu-btn {
   display: block;
 }
@@ -62,36 +51,30 @@ nav {
   width: 0;
   background: #25373B;
   overflow-x: hidden;
-  opacity: .98;
+  opacity: 0.98;
   height: 100vh;
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
 }
-
 nav .mobile-exit {
   height: 32px;
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  filter: invert(1);
   display: block;
   float: right;
   margin: 1.9em 1.5em;
   cursor: pointer;
 }
-
 nav ul {
   margin-top: 5em;
   margin-left: -1em;
   list-style-type: none;
 }
-
 nav ul a {
   text-decoration: none;
   color: white;
   display: block;
-  padding: .8em;
+  padding: 0.8em;
   text-align: right;
 }
-
 nav ul a:hover {
   color: grey;
   font-weight: 700;
@@ -105,55 +88,43 @@ nav ul a:hover {
   color: #FFFFFF;
   margin: 0;
   height: 109px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 38px;
 }
 
 .faq-stn {
   margin-bottom: 82px;
 }
-
 .faq-stn .container {
   width: 325px;
   margin: auto;
 }
-
 .faq-stn .heading h2 {
   font-size: 24px;
   line-height: 34px;
   color: #202223;
   width: 325px;
 }
-
 .faq-stn .heading p {
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
   height: 95px;
 }
-
 .faq-stn .FAQs h2 {
   margin: 48px auto 27px;
 }
-
 .faq-stn .FAQs .questions {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
   background: #ECF6F8;
   border-radius: 13px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 12px 24px;
   margin: 16px auto;
   position: relative;
 }
-
 .faq-stn .FAQs .questions p {
   font-size: 16px;
   line-height: 26px;
@@ -161,7 +132,6 @@ nav ul a:hover {
   color: #202223;
   width: 231px;
 }
-
 .faq-stn .FAQs .questions img {
   width: 32px;
   height: 32px;
@@ -169,11 +139,9 @@ nav ul a:hover {
   margin: auto -6px;
   cursor: pointer;
 }
-
 .faq-stn .FAQs .questions #open {
   visibility: hidden;
 }
-
 .faq-stn .FAQs .questions #close {
   height: 3px;
   width: 24px;
@@ -181,7 +149,6 @@ nav ul a:hover {
   top: 48px;
   right: 32px;
 }
-
 .faq-stn .FAQs .questions #support {
   font-size: 10px;
   width: 261px;
@@ -191,25 +158,21 @@ nav ul a:hover {
 .contact-stn {
   margin-bottom: 51px;
 }
-
 .contact-stn .container {
   width: 325px;
   margin: auto;
 }
-
 .contact-stn .heading h2 {
   font-size: 24px;
   line-height: 34px;
   color: #202223;
   width: 325px;
 }
-
 .contact-stn .heading p {
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
 }
-
 .contact-stn img {
   width: 325px;
   height: 190px;
@@ -221,14 +184,12 @@ nav ul a:hover {
   width: 325px;
   margin: auto;
 }
-
 .addresses-stn .container div h2 {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.15px;
   color: #202223;
 }
-
 .addresses-stn .container div p {
   font-weight: 400;
   font-size: 14px;
@@ -241,31 +202,24 @@ footer {
   background-color: #f5f5f5;
   padding: 1em 0 0px;
 }
-
 footer .container {
   margin: 24px;
 }
-
 footer .container img {
   display: block;
 }
-
 footer .links {
   margin: 0;
   width: 375px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  -webkit-column-gap: 66px;
-          column-gap: 66px;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 66px;
+       column-gap: 66px;
 }
-
 footer .links ul {
   list-style-type: none;
   margin-left: -40px;
 }
-
 footer .links ul h5 {
   font-weight: 600;
   font-size: 16px;
@@ -274,11 +228,9 @@ footer .links ul h5 {
   color: #25373B;
   margin: 8px 0px;
 }
-
 footer .links ul li {
   margin: 8px 0px;
 }
-
 footer .links ul a {
   font-weight: 400;
   font-size: 14px;
@@ -286,7 +238,6 @@ footer .links ul a {
   color: #25373B;
   text-decoration: none;
 }
-
 footer p {
   font-weight: 400;
   font-size: 13px;
@@ -297,7 +248,6 @@ footer p {
   margin: 17px auto;
   color: #25373B;
 }
-
 footer .copyright {
   font-weight: 400;
   font-size: 10px;
@@ -318,25 +268,17 @@ footer .copyright {
     height: 90px;
   }
   header .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 90px auto;
-        grid-template-columns: 90px auto;
-    -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    grid-template-columns: 90px auto;
+    justify-content: unset;
   }
   header .logo img {
     width: 143px;
     height: 25.62px;
   }
   header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -345,8 +287,6 @@ footer .copyright {
     margin-top: -5.5em;
   }
   header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   header ul a {
@@ -368,29 +308,23 @@ footer .copyright {
     border-radius: 4px;
     background: #25373B;
     color: white;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 12px 20px;
   }
   .resources-stn {
     height: 184px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 65px;
     text-align: center;
     font-size: 48px;
     line-height: 54px;
-    letter-spacing: -.5px;
+    letter-spacing: -0.5px;
   }
   .faq-stn .container {
     width: 90%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
     padding: 0px;
   }
   .faq-stn .heading h2 {
@@ -404,7 +338,7 @@ footer .copyright {
     width: 403px;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: .15px;
+    letter-spacing: 0.15px;
   }
   .faq-stn .FAQs h2 {
     font-size: 36px;
@@ -417,13 +351,9 @@ footer .copyright {
   }
   .contact-stn .container {
     width: 90%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
     padding: 0px;
     gap: 10%;
   }
@@ -441,7 +371,7 @@ footer .copyright {
     width: 403px;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: .15px;
+    letter-spacing: 0.15px;
   }
   .contact-stn img {
     width: 588px;
@@ -450,13 +380,9 @@ footer .copyright {
   }
   .addresses-stn .container {
     width: 90%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    grid-template-columns: auto auto auto;
+    align-items: flex-start;
     padding: 0px;
     gap: 10%;
   }
@@ -470,10 +396,8 @@ footer .copyright {
     letter-spacing: 0.15px;
   }
   footer .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
     margin: 0;
     margin-left: 75px;
     margin-top: 50px;
@@ -483,10 +407,8 @@ footer .copyright {
     height: 38px;
   }
   footer .container .links {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
     gap: 88px;
   }
   footer .container .links ul {
@@ -502,4 +424,3 @@ footer .copyright {
     margin-bottom: 20px;
   }
 }
-/*# sourceMappingURL=resources.css.map */

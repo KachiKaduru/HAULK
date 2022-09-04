@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background-color: #FAFAFA;
   max-width: 1440px;
   width: auto;
 }
 
 * {
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -16,7 +15,6 @@ body {
   color: #1692AD;
   font-weight: 600;
 }
-
 .current:hover {
   color: #1692AD;
   font-weight: bold;
@@ -26,30 +24,21 @@ header {
   background-color: white;
   height: 84px;
 }
-
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 25px 21px 0px;
 }
-
 header .logo {
   display: block;
   margin: auto;
 }
-
 header .logo img {
   width: 100px;
 }
-
 header .mobile-menu {
   width: 32px;
 }
-
 nav.menu-btn {
   display: block;
 }
@@ -62,36 +51,30 @@ nav {
   width: 0;
   background: #25373B;
   overflow-x: hidden;
-  opacity: .98;
+  opacity: 0.98;
   height: 100vh;
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
 }
-
 nav .mobile-exit {
   height: 32px;
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  filter: invert(1);
   display: block;
   float: right;
   margin: 1.9em 1.5em;
   cursor: pointer;
 }
-
 nav ul {
   margin-top: 5em;
   margin-left: -1em;
   list-style-type: none;
 }
-
 nav ul a {
   text-decoration: none;
   color: white;
   display: block;
-  padding: .8em;
+  padding: 0.8em;
   text-align: right;
 }
-
 nav ul a:hover {
   color: grey;
   font-weight: 700;
@@ -100,27 +83,17 @@ nav ul a:hover {
 main {
   height: 620px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 main .img {
   height: 620px;
   width: 100%;
 }
-
 main .mainbg {
   display: none;
 }
-
 main .container {
   position: absolute;
   top: 115px;
@@ -131,34 +104,25 @@ main .container {
   width: fit-content;
   margin: auto;
 }
-
 main h1 {
   font-size: 36px;
   line-height: 46px;
   width: 100%;
   margin: 24.12px auto;
 }
-
 main p {
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   font-size: 16px;
   width: 305px;
   margin: auto;
 }
-
 main .truck-links {
-  display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 32px;
   margin-top: 48px;
 }
-
 main .truck-links a {
   text-decoration: none;
   border: 1px solid white;
@@ -167,15 +131,13 @@ main .truck-links a {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   font-weight: 500;
   font-size: 15px;
 }
-
 main .truck-links .register {
   color: white;
 }
-
 main .truck-links .book-truck {
   color: #25373B;
   background-color: white;
@@ -185,44 +147,31 @@ main .truck-links .book-truck {
   margin-top: 60px;
   margin-bottom: 56.16px;
 }
-
 .services-stn .container {
   text-align: center;
 }
-
 .services-stn .container .headings h2 {
   font-size: 24px;
   line-height: 34px;
   font-weight: 600;
   color: #202223;
 }
-
 .services-stn .container .headings p {
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
   color: #6D7175;
 }
-
 .services-stn .advantages {
   margin: 29px auto 56px;
 }
-
 .services-stn .advantages .items {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin: 1em auto;
 }
-
 .services-stn .advantages .items .rectangle {
   display: block;
   width: 328px;
@@ -231,7 +180,6 @@ main .truck-links .book-truck {
   background-color: #D1E1E1;
   border-radius: 20px;
 }
-
 .services-stn .advantages .items .blue-circle {
   display: block;
   width: 82px;
@@ -240,7 +188,6 @@ main .truck-links .book-truck {
   position: absolute;
   top: 58px;
 }
-
 .services-stn .advantages .items .truck-img {
   display: block;
   width: 39.36px;
@@ -249,7 +196,6 @@ main .truck-links .book-truck {
   position: absolute;
   top: 79.32px;
 }
-
 .services-stn .advantages .items h4 {
   font-weight: 600;
   font-size: 18px;
@@ -259,7 +205,6 @@ main .truck-links .book-truck {
   position: absolute;
   top: 142px;
 }
-
 .services-stn .advantages .items p {
   width: 269px;
   font-weight: 400;
@@ -269,19 +214,12 @@ main .truck-links .book-truck {
   position: absolute;
   top: 197px;
 }
-
 .services-stn .profits {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 0px;
   gap: 32px;
 }
-
 .services-stn .profits img {
   display: block;
   width: 328px;
@@ -289,13 +227,11 @@ main .truck-links .book-truck {
   margin: auto;
   border-radius: 10px;
 }
-
 .services-stn .profits .column {
   width: 323px;
   margin: auto;
   text-align: left;
 }
-
 .services-stn .profits .column h2 {
   font-weight: 600;
   font-size: 24px;
@@ -303,7 +239,6 @@ main .truck-links .book-truck {
   color: #202223;
   margin: 32px auto 16px;
 }
-
 .services-stn .profits .column p {
   margin-bottom: 16px;
   font-weight: 400;
@@ -311,7 +246,6 @@ main .truck-links .book-truck {
   line-height: 23px;
   width: 323px;
 }
-
 .services-stn .profits .column a {
   display: block;
   text-decoration: none;
@@ -325,18 +259,15 @@ main .truck-links .book-truck {
   line-height: 21px;
   letter-spacing: 0.2px;
 }
-
 .services-stn .profits .column a:hover {
   color: #FFFFFF;
   background-color: #202223;
   font-weight: 600;
 }
-
 .services-stn .profits .column .book-one {
   color: white;
   background-color: #202223;
 }
-
 .services-stn .profits .column .book-one:hover {
   color: #202223;
   background-color: white;
@@ -346,58 +277,43 @@ main .truck-links .book-truck {
 .fleet-stn {
   margin-bottom: 87px;
 }
-
 .fleet-stn .container .headings {
   margin-bottom: 27px;
   text-align: center;
 }
-
 .fleet-stn .container .headings h2 {
   font-size: 24px;
   line-height: 34px;
   font-weight: 600;
   color: #202223;
 }
-
 .fleet-stn .container .headings p {
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
   color: #6D7175;
 }
-
 .fleet-stn .garage {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
   position: relative;
 }
-
 .fleet-stn .garage .vehicles {
   position: relative;
 }
-
 .fleet-stn .garage .vehicles img {
   width: 326.8px;
   height: 229px;
   display: block;
   margin: auto;
 }
-
 .fleet-stn .garage .vehicles p {
   width: 198px;
   height: 43px;
   background: rgba(22, 146, 173, 0.56);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 10px 0 7px 25px;
   position: absolute;
   top: 170px;
@@ -412,59 +328,43 @@ main .truck-links .book-truck {
 .testimonials-stn {
   margin-bottom: 66.84px;
 }
-
 .testimonials-stn .container .headings {
   text-align: center;
 }
-
 .testimonials-stn .container .headings h2 {
   font-size: 24px;
   line-height: 34px;
   font-weight: 600;
   color: #202223;
 }
-
 .testimonials-stn .container .headings p {
   font-weight: 500;
   font-size: 11px;
   line-height: 14px;
   color: #6D7175;
 }
-
 .testimonials-stn .testimonies {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   overflow: auto;
   margin: auto;
 }
-
 .testimonials-stn .testimonies .testimony {
   margin: 14px;
   position: relative;
 }
-
 .testimonials-stn .testimonies .testimony img {
   width: 320px;
   height: 151px;
   background-color: #D1E1E1;
   border-radius: 20px;
 }
-
 .testimonials-stn .testimonies .testimony div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   position: absolute;
   top: 0;
 }
-
 .testimonials-stn .testimonies .testimony div img {
   width: 40px;
   height: 40px;
@@ -474,7 +374,6 @@ main .truck-links .book-truck {
   top: 22px;
   left: 16px;
 }
-
 .testimonials-stn .testimonies .testimony div blockquote {
   position: absolute;
   left: 32px;
@@ -484,7 +383,6 @@ main .truck-links .book-truck {
   line-height: 20px;
   color: #202223;
 }
-
 .testimonials-stn .testimonies .testimony cite {
   position: absolute;
   top: 108px;
@@ -507,18 +405,10 @@ main .truck-links .book-truck {
   margin: 0 auto;
   text-align: center;
   color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .info-stn .container .know-more h2 {
   width: 268px;
   margin: 56px auto 8px;
@@ -526,43 +416,30 @@ main .truck-links .book-truck {
   font-size: 24px;
   line-height: 34px;
 }
-
 .info-stn .container .know-more p {
   width: 192px;
   margin-bottom: 32px;
 }
-
 .info-stn .container .know-more form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
   position: relative;
 }
-
 .info-stn .container .know-more form input {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 324px;
   padding: 12px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   border: 1px solid #BAC7D5;
   border-radius: 3px;
 }
-
 .info-stn .container .know-more form a {
   position: absolute;
   right: 5px;
   width: 59px;
   height: 34px;
 }
-
 .info-stn .container .imagery {
   display: block;
   margin: auto;
@@ -576,31 +453,24 @@ footer {
   background-color: #f5f5f5;
   padding: 1em 0 0px;
 }
-
 footer .container {
   margin: 24px;
 }
-
 footer .container img {
   display: block;
 }
-
 footer .links {
   margin: 0;
   width: 375px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  -webkit-column-gap: 66px;
-          column-gap: 66px;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 66px;
+       column-gap: 66px;
 }
-
 footer .links ul {
   list-style-type: none;
   margin-left: -40px;
 }
-
 footer .links ul h5 {
   font-weight: 600;
   font-size: 16px;
@@ -609,11 +479,9 @@ footer .links ul h5 {
   color: #25373B;
   margin: 8px 0px;
 }
-
 footer .links ul li {
   margin: 8px 0px;
 }
-
 footer .links ul a {
   font-weight: 400;
   font-size: 14px;
@@ -621,7 +489,6 @@ footer .links ul a {
   color: #25373B;
   text-decoration: none;
 }
-
 footer p {
   font-weight: 400;
   font-size: 13px;
@@ -632,7 +499,6 @@ footer p {
   margin: 17px auto;
   color: #25373B;
 }
-
 footer .copyright {
   font-weight: 400;
   font-size: 10px;
@@ -653,25 +519,17 @@ footer .copyright {
     height: 90px;
   }
   header .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 90px auto;
-        grid-template-columns: 90px auto;
-    -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    grid-template-columns: 90px auto;
+    justify-content: unset;
   }
   header .logo img {
     width: 143px;
     height: 25.62px;
   }
   header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -680,8 +538,6 @@ footer .copyright {
     margin-top: -5.5em;
   }
   header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   header ul a {
@@ -703,8 +559,7 @@ footer .copyright {
     border-radius: 4px;
     background: #25373B;
     color: white;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 12px 20px;
   }
   main .mobilebg {
@@ -730,8 +585,6 @@ footer .copyright {
     margin-bottom: 3em;
   }
   main .truck-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .services-stn {
@@ -749,15 +602,11 @@ footer .copyright {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: .15px;
+    letter-spacing: 0.15px;
   }
   .services-stn .advantages {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     overflow: auto;
     margin: 29px auto 129px;
   }
@@ -778,25 +627,15 @@ footer .copyright {
   .services-stn .profits {
     max-width: 1440px;
     margin: auto;
-    display: -ms-grid;
     display: grid;
     row-gap: 120px;
     overflow: auto;
   }
   .services-stn .profits .reliable, .services-stn .profits .earning {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
   }
   .services-stn .profits .reliable img, .services-stn .profits .earning img {
     width: 552px;
@@ -813,7 +652,7 @@ footer .copyright {
     font-weight: 600;
     font-size: 36px;
     line-height: 46px;
-    letter-spacing: -.5px;
+    letter-spacing: -0.5px;
     margin: 0px;
     width: 400px;
   }
@@ -827,10 +666,7 @@ footer .copyright {
     width: 301px;
   }
   .services-stn .profits .earning {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     margin: 0 0em 1em 0;
   }
   .services-stn .profits .earning img {
@@ -848,16 +684,12 @@ footer .copyright {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: .15px;
+    letter-spacing: 0.15px;
   }
   .fleet-stn .garage {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    grid-template-columns: auto auto auto;
+    align-items: center;
     margin: auto 32px;
     overflow: auto;
     padding-bottom: 1em;
@@ -886,24 +718,18 @@ footer .copyright {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: .15px;
+    letter-spacing: 0.15px;
   }
   .testimonials-stn .testimonies {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
     row-gap: 40px;
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
-    -webkit-column-gap: -50px;
-            column-gap: -50px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    -moz-column-gap: -50px;
+         column-gap: -50px;
     margin: 2em auto;
   }
   .testimonials-stn .testimonies .testimony {
@@ -945,8 +771,6 @@ footer .copyright {
     height: 510px;
   }
   .info-stn .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 510px;
   }
@@ -982,10 +806,8 @@ footer .copyright {
     margin: 0;
   }
   footer .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
     margin: 0;
     margin-left: 75px;
     margin-top: 50px;
@@ -995,10 +817,8 @@ footer .copyright {
     height: 38px;
   }
   footer .container .links {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
     gap: 88px;
   }
   footer .container .links ul {
@@ -1014,4 +834,3 @@ footer .copyright {
     margin-bottom: 20px;
   }
 }
-/*# sourceMappingURL=main.css.map */

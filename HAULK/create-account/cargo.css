@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background-color: #FAFAFA;
   max-width: 1440px;
   width: auto;
 }
 
 * {
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .banner {
@@ -24,12 +23,9 @@ body {
 }
 
 .create-stn .container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
+  grid-template-columns: auto;
 }
-
 .create-stn h2 {
   font-weight: 500;
   font-size: 24px;
@@ -38,7 +34,6 @@ body {
   color: #202223;
   margin-left: 24px;
 }
-
 .create-stn p {
   font-weight: 400;
   font-size: 14px;
@@ -48,20 +43,12 @@ body {
   width: 327px;
   margin: 1px auto 32px;
 }
-
 .create-stn .main-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 0px;
 }
-
 .create-stn .main-links a {
   width: 45%;
   max-width: 1440px;
@@ -71,42 +58,35 @@ body {
   font-size: 12px;
   line-height: 12px;
   border: 1px solid #25373B;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 17px 35px;
   text-align: center;
   position: relative;
 }
-
 .create-stn .main-links a img {
   display: inline;
   position: absolute;
   top: 15px;
   left: 20px;
 }
-
 .create-stn .main-links .cargo-owner {
   color: #FFFFFF;
   background-color: #25373B;
   border-radius: 6px 0 0 6px;
 }
-
 .create-stn .main-links .truck-driver {
   color: #25373B;
   background-color: #FFFFFF;
   border: 1px solid #D1E1E1;
   border-radius: 0 6px 6px 0;
 }
-
 .create-stn form {
   margin: 8px 0px 83px;
 }
-
 .create-stn form label {
   margin: 24px;
   display: block;
 }
-
 .create-stn form legend {
   font-weight: 500;
   font-size: 14px;
@@ -114,7 +94,6 @@ body {
   color: #202223;
   margin: 6px 0px;
 }
-
 .create-stn form input {
   width: 100%;
   max-width: 1440px;
@@ -122,21 +101,17 @@ body {
   background-color: white;
   border-radius: 4px;
   padding: 10px 12px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
-
 .create-stn form input[type=checkbox] {
   width: 1em;
   background-color: #1692AD;
 }
-
 .create-stn form input[type=submit] {
   color: #FFFFFF;
   background-color: #25373B;
 }
-
 .create-stn form .checkbox {
   text-decoration: none;
   color: #1692AD;
@@ -144,15 +119,13 @@ body {
   font-size: 14px;
   line-height: 23px;
 }
-
 .create-stn form .already {
   color: #000000;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 }
-
 .create-stn form .already a {
   color: #1692AD;
   text-decoration: none;
@@ -160,12 +133,10 @@ body {
 
 @media only screen and (min-width: 768px) {
   body {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    -webkit-column-gap: 0px;
-            column-gap: 0px;
+    grid-template-columns: auto auto;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
   }
   .banner {
     display: block;
@@ -174,19 +145,14 @@ body {
     background-color: #25373B;
   }
   .banner .logo {
-    display: -ms-grid;
     display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     width: 395px;
     margin: 45% auto;
   }
   .banner .logo img {
-    -webkit-filter: invert(4);
-            filter: invert(4);
-    -webkit-filter: brightness(20);
-            filter: brightness(20);
+    filter: invert(4);
+    filter: brightness(20);
     width: 295px;
     height: 52.86px;
   }
@@ -201,8 +167,7 @@ body {
     display: none;
   }
   .create-stn {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin-top: 60px;
   }
   .create-stn .container h2 {
@@ -230,4 +195,3 @@ body {
     width: 16px;
   }
 }
-/*# sourceMappingURL=cargo.css.map */
